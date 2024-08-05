@@ -15,8 +15,7 @@ import Register from "./pages/Auth/Register";
 import AdminRoute from "./pages/Admin/AdminRoute";
 import Profile from "./pages/User/Profile";
 import UserList from "./pages/Admin/UserList";
-
-//import CategoryList from "./pages/Admin/CategoryList";
+import CategoryList from "./pages/Admin/CategoryList";
 
 //import ProductList from "./pages/Admin/ProductList";
 //import AllProducts from "./pages/Admin/AllProducts";
@@ -57,8 +56,8 @@ const router = createBrowserRouter(
 
       <Route path="/admin" element={<AdminRoute />}>
         <Route path="userlist" element={<UserList />} />
-        {/*<Route path="categorylist" element={<CategoryList />} />
-        <Route path="productlist" element={<ProductList />} />
+        <Route path="categorylist" element={<CategoryList />} />
+        {/*<Route path="productlist" element={<ProductList />} />
         <Route path="allproductslist" element={<AllProducts />} />
         <Route path="productlist/:pageNumber" element={<ProductList />} />
         <Route path="product/update/:_id" element={<ProductUpdate />} />
